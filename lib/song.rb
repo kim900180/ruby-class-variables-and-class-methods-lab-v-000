@@ -17,7 +17,7 @@ class Song
   end
 
   def genres
-    returns @genre
+    returns @@genre
   end
 
 end
