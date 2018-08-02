@@ -25,8 +25,8 @@ class Song
     while i < @@genres.length
       if view_genres.include?(@@genres[i]) == false
         view_genres << @@genres[i]
-        i += 1
       end
+      i += 1
     end
     view_genres
   end
