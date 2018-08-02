@@ -22,8 +22,8 @@ class Song
     @@genres
   end
 
-  def artists
-    return @@artists.lengths
+  def self.artists
+    @@artists
   end
 
   def genre_count
