@@ -28,6 +28,7 @@ class Song
         i += 1
       end
     end
+    view_genres
   end
 
   def self.artists
