@@ -11,7 +11,7 @@ class Song
   end
 
   def count
-    puts @@count
+    return @@count
   end
 
 end
