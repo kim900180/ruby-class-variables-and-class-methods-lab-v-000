@@ -32,7 +32,15 @@ class Song
   end
 
   def self.artists
-    @@artists
+    view_artists = []
+    i = 0
+    while i < @@artists.length
+      if view_artists.include?(@@artists[i]) == false
+        view_artists << @@artists[i]
+      end
+      i += 1
+    end
+    view_genres
   end
 
   def genre_count
