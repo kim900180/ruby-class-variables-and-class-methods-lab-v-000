@@ -26,4 +26,8 @@ class Song
     return @@artists
   end
 
+  def genre_count
+    
+  end
+
 end
