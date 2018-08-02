@@ -40,7 +40,7 @@ class Song
       end
       i += 1
     end
-    view_genres
+    view_artists
   end
 
   def genre_count
