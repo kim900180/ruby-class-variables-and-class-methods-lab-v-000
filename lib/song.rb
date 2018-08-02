@@ -20,7 +20,14 @@ class Song
   end
 
   def self.genres
-    @@genres
+    view_genres = []
+    i = 0
+    while i < @@genres.length
+      if view_genres.include(@@genres[i]) == false
+        view_genres << @@genres[i]
+        i += 1
+      end
+    end
   end
 
   def self.artists
